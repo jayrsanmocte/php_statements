@@ -14,7 +14,7 @@
 
         .student:hover {
             background-color: orange;
-            animation: none; /* Disable jumping animation on hover */
+            animation: none; 
         }
 
         .student p {

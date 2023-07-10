@@ -61,7 +61,7 @@
                     <tr>
                         <th>&nbsp;</th>
                         <?php
-                        // Generate table header row
+                       
                         for ($j = 1; $j <= $limit; $j++) {
                             echo "<th>$j</th>";
                         }
@@ -69,12 +69,11 @@
                     </tr>
 
                     <?php
-                    // Generate table rows
+                   
                     for ($i = 1; $i <= $limit; $i++) {
                         echo "<tr>";
                         echo "<td><b>$i</b></td>";
-
-                        // Generate table cells
+                        
                         for ($j = 1; $j <= $limit; $j++) {
                             $result = $i / $j;
                             echo "<td>$result</td>";
